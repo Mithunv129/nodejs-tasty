@@ -18,7 +18,7 @@
   "main": "food.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon food.js"
+    "start": "node food.js"
   },
   "author": "",
   "license": "ISC",
