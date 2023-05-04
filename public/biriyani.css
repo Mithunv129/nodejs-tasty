@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all .2s linear;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+.container1{
+    position: fixed;
+    right: 0;left: 0;top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 5px 6px rgba(0,0,0,0.1);
+}
+header .logo{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: #192a56;
+}
+header .logo i{
+    color:  rgb(212, 24, 24);
+}
+header .nbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    color: rgb(15, 15, 15);
+}
+
+header .nbar a:hover{
+    color:#fff;
+    background-color: rgb(212, 24, 24);
+}
+header .icons i,
+header .icons a{
+    color: black;
+    font-size: 20px;
+    width: 2.5rem;
+}
+
+.home{
+    padding: 2rem 9%;
+    background-color: #fff;
+}
+
+img{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:2.5rem;
+    padding-top: 4rem;
+}
+.con .side-in-up span{
+    color: #27ae60;
+    font-size: 1rem;
+    font-family:cursive;
+}
+.con .side-in-up h3{
+    padding: .5rem 0;
+    color:#192a56;
+    font-family: cursive;
+    font-size:1.8rem;
+}
+.con .side-in-up p{
+    padding: .5rem 0;
+    color:black;
+    font-family: cursive;
+}
+.btn{
+    margin-top: 1rem ;
+    color:white;
+    background-color: #192a56;
+    display: inline-block;
+    text-decoration: none;
+    font-family: cursive;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: 10px 7px;
+}
+
+.btn:hover{
+   background-color: #27ae60;
+   color: #fff;
+   letter-spacing: 2px;
+}
+
+.con{
+    transition: 1s;
+    animation: con;
+    animation-duration: 2s;
+}
+.con .images{
+    width: 700px;
+    height: 600px;
+}
+.con .images .im{
+    margin-left: 100px;
+    border-radius: 300px;
+    transition: 2s;
+    animation-duration: 6s;
+    animation: spin 11s  linear infinite;
+}
+@keyframes con{
+    from{
+        transform: translateY(-600px);
+    }
+}
+
+@keyframes spin {
+   100%{transform:rotate(360deg);}
+  }
+
+.dish{
+    background-color:#eee; 
+    justify-content: space-around;
+}
+.dish .biri{
+    padding-top: 20px;
+}
+.dish h3{
+    text-align: center;
+    font-family: cursive;
+    color:#192a56;
+    font-size: 2rem;
+}
+.dish h2{
+    text-align: center;
+    font-family: cursive;
+    color:#27ae60;
+    font-size: 2rem;
+}
+.dish .card-img-top{
+    margin-left: 17px;
+    height:200px;
+    width:250px;
+    border-radius: 10px;
+}
+.dish .biri{
+    display: flex;
+    justify-content: space-around;
+}
+.dish .card-title
+{
+    text-align: center;
+    color:#192a56;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.dish .card-text{
+    text-align: center;
+    color:#192a56;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.biri .card{
+    border-radius: 10px;
+}
+.biri .card a{
+    color: #fff;
+    margin-left: 90%;
+    background-color:#192a56;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+.dish .more a{
+    margin-left: 47%;
+    background-color: #27ae60;
+}
+
+.dish .s{
+    padding-top:20px;
+}
+
+.footer{
+    padding-top: 15px;
+    background-color:#eee;
+}
+.footer .boxc{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: .5rem;
+    font-family: cursive;
+    background-color: black;
+    padding-left: 20px;
+}
+ .footer .boxc .box h5{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: white;
+ }
+ .footer .boxc .box a:h5{
+    color: #27ae60;
+ }
+ .footer .boxc .box a{
+    text-decoration: none;
+    display: block;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color: white;
+ }
+ .footer .boxc .box a:hover{
+    color: #27ae60;
+ }
+ .footer .boxc .credit{
+    font-size: 1rem;
+    padding:.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-family: cursive;
+    background-color: black;
+    color: #fff;
+   
+ }
+ .credit span{
+    color: #27ae60;
+ }

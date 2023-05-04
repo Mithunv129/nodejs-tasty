@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    transition: all .2s linear;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+.container1{
+    position: fixed;
+    right: 0;left: 0;top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 5px 6px rgba(0,0,0,0.1);
+}
+header .logo{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: #192a56;
+}
+header .logo i{
+    color:  rgb(85, 7, 175);
+}
+header .nbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    border-radius: .3rem;
+    padding: .5rem 1.5rem;
+    color: rgb(15, 15, 15);
+}
+header .nbar a.active,
+header .nbar a:hover{
+    color:#fff;
+    background-color: rgb(85, 7, 175);
+}
+header .icons i,
+header .icons a{
+    color: black;
+    font-size: 20px;
+    width: 2.5rem;
+}
+
+.footer{
+    padding-top: 15px;
+    background-color:#eee;
+}
+.footer .boxc{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: .5rem;
+    font-family: cursive;
+    background-color: black;
+    padding-left: 20px;
+}
+ .footer .boxc .box h5{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: white;
+ }
+ .footer .boxc .box a:h5{
+    color: #27ae60;
+ }
+ .footer .boxc .box a{
+    text-decoration: none;
+    display: block;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color: white;
+ }
+ .footer .boxc .box a:hover{
+    color: #27ae60;
+ }
+ .footer .boxc .credit{
+    font-size: 1rem;
+    padding:.5rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-family: cursive;
+    background-color: black;
+    color: #fff;
+   
+ }
+ .credit span{
+    color: #27ae60;
+ }
+
+
+ #fh5co-about {
+    padding-top:83px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    background: #e6e6e6;
+    width: 100%;
+  }
+  #fh5co-about .fh5co-2col {
+    width: 50%;
+  }
+  @media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-2col {
+      width: 100%;
+    }
+  }
+  #fh5co-about .fh5co-text {
+    padding: 2em 6em;
+    text-align: left;
+    background: #130d08 url(../images/wood_1.png) repeat;
+  }
+  @media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-text {
+      padding: 1em;
+    }
+  }
+  #fh5co-about .fh5co-text .btn {
+    color: #fff;
+  }
+  #fh5co-about .fh5co-text .heading {
+    margin-bottom: 30px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #fh5co-about .fh5co-text .heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    left: 50%;
+    background: #fb6e14;
+    margin-left: -20px;
+  }
+  #fh5co-about .fh5co-text p {
+    line-height: 2;
+    color: #a99c92;
+  }
+  #fh5co-about .fh5co-text p span.firstcharacter {
+    float: left;
+    color: #903;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-left: 3px;
+    font-style: italic;
+    top: -20px;
+    position: relative;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+  }
+  #fh5co-about .fh5co-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-bg {
+      width: 100%;
+      min-height: 500px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-about .fh5co-bg {
+      width: 100%;
+      min-height: 300px;
+    }
+  }
+  .btn {
+    background-color: #e20c0c;
+  }
