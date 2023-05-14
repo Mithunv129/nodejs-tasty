@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 const bcrypt=require('bcrypt');
 
-mongoose.connect("mongodb://127.0.0.1:27017/tastyRegister")
+mongoose.connect("mongodb+srv://mithunv129:vhFNu7cMJhicQ9kO@cluster0.yyxgfc6.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("connected");
 })
