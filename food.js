@@ -22,6 +22,6 @@ app.set("view engine","hbs");
 const router=require("./server/router/page");
 app.use("/",router);
 
-app.listen(1982);
+app.listen(3000);
 
 
